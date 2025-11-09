@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codeshell — Coming Soon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="container">
+    <nav class="nav">
+      <div class="logo">🌐</div>
+      <ul>
+        <li><a href="#">Payment</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Account</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <h1 class="gradient-text">Coming Soon</h1>
+      <p class="subtitle">
+        From automation of people processes to creating<br>
+        an engaged and driven culture.
+      </p>
+
+      <form id="notifyForm"
+            action="https://formspree.io/f/mldejrnz"
+            method="POST">
+        <input type="email" name="email" id="email" placeholder="Please enter your email address" required />
+        <input type="hidden" name="_subject" value="New Notify Submission — Codeshell" />
+        <input type="hidden" name="_replyto" value="codeshellhelp@gmail.com" />
+        <button type="submit">Notify Me</button>
+      </form>
+
+      <p class="note">– Notify me when the App is launched –</p>
+      <p id="msg"></p>
+    </div>
+
+    <footer class="footer">
+      <p>Privacy Policy</p>
+      <p>Facebook / Instagram / LinkedIn</p>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
